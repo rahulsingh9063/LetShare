@@ -1,7 +1,7 @@
 const express = require("express");
 const { createPostController, getAllPostsController, getUserPostsController, deleteUserPostController, updateUserPostController } = require("../controllers/postController");
 const { requireSignIn } = require("../controllers/userController");
-const { use } = require("react");
+
 
 const router = express.Router();
 
